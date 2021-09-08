@@ -10,7 +10,7 @@ document.querySelectorAll('#counter').forEach(counter => {
             
             const divContent = +counter.innerText;
             const increaseBy = counterNumber / speed;
-            console.log(counterNumber)
+            
             divContent < counterNumber ?
                   counter.innerHTML = Math.abs(divContent + increaseBy).toFixed(2) :
                   clearInterval(updateCount)
@@ -27,7 +27,7 @@ document.querySelectorAll('#counterFixo').forEach(counter => {
             
             const divContent = +counter.innerText;
             const increaseBy = counterNumber / speed;
-            console.log(counterNumber)
+           
             divContent < counterNumber ?
                   counter.innerHTML = Math.ceil(divContent + increaseBy) :
                   clearInterval(updateCount)
