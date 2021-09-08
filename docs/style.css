@@ -16,27 +16,6 @@ body {
   position: relative;
 }
 
-@property --percent {
-  syntax: "<number>";
-  initial-value: 0;
-  inherits: false;
-}
-@property --temp {
-  syntax: "<number>";
-  initial-value: 0;
-  inherits: false;
-}
-@property --v1 {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
-@property --v2 {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
-
 .usd::before{
   content: "US$ ";
 }
@@ -66,6 +45,7 @@ h5{
 .navbar{
   overflow: hidden;
   border-bottom: 2px solid #16db58;
+
 }
 
 #value {
