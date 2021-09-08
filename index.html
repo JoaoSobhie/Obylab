@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Obylab</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/carousel/">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./style.css" rel="stylesheet">
+</head>
+<script>
+  $({ Counter: 0 }).animate({
+    Counter: $('.Single').text()
+  }, {
+    duration: 1000,
+    easing: 'swing',
+    step: function () {
+      $('.Single').text(Math.ceil(this.Counter));
+    }
+  });
+</script>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #000;">
+    <div class="navbar-collapse" id="navbarCollapse">
+      <a class="navbar-brand" href="#"><img src="./imagens/nome.png" width="140" height="40"> </a>
+      <ul class="navbar-nav ml-auto align-auto row" style="font-size: large; margin: 0%;">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./blockchain.html">Blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./empresas.html">Empresas Parceiras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./equipe.html">Equipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./noticias.html">Noticias</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <main role="main">
+    <div class="inicio" style="background-color: black;">
+      <div class="row">
+        <img class="col-lg-3" src="./imagens/logoGrande.png" style="margin: 2%;">
+      </div>
+      <div class="row">
+        <p class="col-lg-5"></p>
+        <p class="col-lg-6" style="font-size: 40px; color:#fff;">A CleanTech que se preocupa</br> com o seu alimento</p>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <a href="./sobre.html" style="color: #fff;"><button class="botao">Saiba mais</button></a>
+      </div>
+    </div>
+    <!--navbar-->
+    
+    <!--fim navbar-->
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" style="margin-top: 5%;">
+      <h1 style="color:#000; border-bottom: 2px solid #16db58;">Números do setor de Alimentos*</h1>
+      </br>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3" style="text-align: center;">
+          <img src="./imagens/dinheirobranco.png" class="bd-placeholder-img" width="170" height="170" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="employees">
+            <h2 class="percent" id="counter" countTo="10.6" style="color: #000;"></h2>
+            <p class="employee-p">do total do PIB brasileiro</p>
+          </div>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align: center;">
+          <img src="./imagens/exportacaoBranco.png" class="bd-placeholder-img" width="170" height="170" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="employees">
+            <h2 class="usd" id="counter" countTo="38.3" style="color: #000;"></h2>
+            <p class="employee-p">em exportações</p>
+          </div>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align: center;">
+          <img src="./imagens/pilhabranco.png" class="bd-placeholder-img" width="170" height="170" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="employees">
+            <h2 class="percent" id="counter" countTo="18.2" style="color: #000;"></h2>
+            <p class="employee-p">responde por 18,2% das
+              exportações totais brasileiras.
+            </p>
+          </div>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align: center;">
+          <img src="./imagens/terrabranco.png" class="bd-placeholder-img" width="170" height="170" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="employees">
+            <h2 class="value" id="counterFixo" countTo="190" style="color: #000;"></h2>
+            <p class="employee-p">países importam alimentos do Brasil
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <p style="color: #000; text-align: center; margin-top: 6%; margin-bottom: 0%;">Balanço anual 2020 – ABIA
+        (Associação Brasileira da Indústria de Alimentos)
+      </p>
+      <!-- /row -->
+    </div>
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" style="margin: 1%;">
+
+    <div class="row featurette"
+      style="background-image: linear-gradient(to right,#16db58 , #8bebed); margin-top: 0%; height: 450px;">
+      <div class="col-lg-4" style="margin: 2%; position: center;">
+        <img src="./imagens/Logotexto.png" style="margin-top: 2%;" width="470" height="370">
+      </div>
+      <div class="col-md-7" style="margin-top: 2%;">
+        <h1 style="color: #fff;">Pronto para começar?</h1>
+        <p style="color: #fff; font-size: 150%; text-align: justify; line-height: 1.7em;">Realizamos auditorias com base
+          nos parâmetros do GRI (Global Reporting Initiative - Relatório de Sustentabilidade) e em conjunto do
+          Blockchain, uma tecnologia imutável e de topologia pública, será possível assegurar para o seu cliente final
+          que as etapas do ciclo do seu produto, são de fato sustentáveis. </p>
+        <p style="color: #fff; font-size: 150%; text-align: justify; line-height: 1.9em;">Junte-se a nós em prol do Meio
+          Ambiente!</p>
+        <a href="./servicos.html"><button class="botao">Nossos Serviços</button></a>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="featurette-divider" style="margin: 1%;">
+      <h1 style="color: #000; margin-left: 3%; border-bottom: 2px solid #16db58; ">Notícias</h1></br>
+      <div class="row featurette">
+        <div class="col-lg-6"
+          style="border: 0.2rem solid transparent; border-radius: 3rem; background-color: transparent; position: center; border-color: #16db58;margin: 1%;">
+          <h2 style="color: #000;">Empresas se comprometem com a descarbonização por conta própria</h2>
+          <p class="lead" style="color: black; text-align: justify;">
+            A Embraer prometeu ser neutra em carbono até 2040, mesmo ano em que a BRF, dona da Sadia e Perdigão, deve
+            conseguir zerar suas emissões líquidas. Já a JBS antecipou para 2025 o objetivo de acabar com o desmatamento
+            ilegal nas fazendas de seus fornecedores indiretos no Cerrado, Pantanal, Mata Atlântica e Caatinga, enquanto
+            a Suzano pretende tornar suas metas climáticas mais ambiciosas...
+          </p>
+          <a href="https://www1.folha.uol.com.br/mercado/2021/08/empresas-se-comprometem-com-a-descarbonizacao-por-conta-propria.shtml?utm_source=whatsapp&utm_medium=social&utm_campaign=compwa"
+            style="color: #000; text-align: center; margin-left: 2%;">ler mais</a>
+        </div>
+        <div class="col-lg-5"
+          style="border: 0.2rem solid transparent; border-radius: 3rem; background-color: transparent; position: center; border-color: #16db58;margin: 1%;">
+          <h2 style="color: #000;">CONSULTA PÚBLICA: PLANO DE AÇÃO CLIMÁTICA DO ESTADO DE SÃO PAULO (NET ZERO 2050)</h2>
+          <p class="lead" style="color: black; text-align: justify;">
+            Contribuições para o documento “Diretrizes e Ações Estratégicas – Plano de Ação Climática do Estado de São
+            Paulo- Net Zero 2050. Versão Preliminar para Consulta Pública, Julho de 2021”
+          </p>
+          <a href="https://www.infraestruturameioambiente.sp.gov.br/2021/07/consulta-publica-plano-de-acao-climatica-do-estado-de-sao-paulo-net-zero-2050/" style="color: #000; margin-left: 2%;">ler mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="row featurette" style="background-color: black; margin-top: 5%; margin-bottom: 3%;">
+      <h1 style="margin: 2%; color: #fff;">Siga a ObyLab</h1>
+      <div class="col-md-12">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-632c1b8b-5e61-4a86-96af-9b5b6152ce78"></div>
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+    <!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p style="color: #000;">&copy; 2021 Obylab &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src=".././js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="./bootstrap-4.6.0/bootstrap-4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

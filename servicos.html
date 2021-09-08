@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Obylab</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/carousel/">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./bootstrap-4.6.0/bootstrap-4.6.0/dist/js/bootstrap.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./style.css" rel="stylesheet">
+</head>
+<script>
+  $({ Counter: 0 }).animate({
+    Counter: $('.Single').text()
+  }, {
+    duration: 1000,
+    easing: 'swing',
+    step: function () {
+      $('.Single').text(Math.ceil(this.Counter));
+    }
+  });
+</script>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #000;">
+    <div class="navbar-collapse" id="navbarCollapse">
+      <a class="navbar-brand" href="#"><img src="./imagens/nome.png" width="140" height="40"> </a>
+      <ul class="navbar-nav ml-auto align-auto row" style="font-size: large; margin: 0%;">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./blockchain.html">Blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./empresas.html">Empresas Parceiras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./equipe.html">Equipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./noticias.html">Noticias</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <!--fim navbar-->
+
+
+  <div class="conteudo" style="background-color: #000; color: #fff; text-align: justify;">
+    <div class="row">
+      <h1 style="border-bottom: 1px solid #16db58; margin:2%;">O apoio que sua empresa precisa para ser ainda mais
+        sustentável!</h1>
+    </div>
+    <div class="row" style="margin: 2%; text-align: justify;">
+      <p>
+        Juntos podemos iniciar essa jornada sustentável e melhorar qualidade de vida de todos do planeta.
+        Sabemos que esse caminho pode não parecer simples à primeira vista, mas com determinação e força de
+        vontade, venceremos todos os desafios e alcançaremos o nosso propósito​
+        </br></br>
+        Desenvolvemos uma variedade de serviços para que sua empresa possa encontrar aquela que mais se
+        encaixa em sua realidade, pois o nosso intuito é garantir que sua empresa seja sustentável e possa
+        comprová-la, independente de seu tamanho.​
+        </br></br>
+        Dê o próximo passo. Conheça nossos serviços. Caminharemos juntos nessa jornada sustentável!
+      </p>
+
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+      style="color: #fff; margin-left:50%" class="bi bi-caret-down" viewBox="0 0 16 16">
+      <path
+        d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+    </svg>
+  </div>
+  <div class="row">
+    <h1 style="color: black; margin: 2%; border-bottom: 1px solid #16db58;">Nossos serviços​</h1>
+  </div>
+  <div class="container">
+    <div class="accordion" id="accordionExample" style="color: #000;">
+
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5>Elaboração Relatório GRI (Global Reporting Initiative - Relatório de Sustentabilidade)​</h5>
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample" style="">
+          <div class="card-body">
+            Oby junto com o cliente será capaz de elaborar relatório de sustentabilidade GRI (Global Reporting
+            Initiative - Relatório de Sustentabilidade) seguindo altos padrões de qualidade e visando sempre a
+            integridade.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h5>Análise Sustentabilidade Ciclo - 1 Produto/ Grupo de Produtos</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample"
+          style="">
+          <div class="card-body">
+            Será realizado uma análise e perícia em todo o ciclo do produto/ grupo de produtos para determinar em que
+            ponto ele é ou não sustentável e porque, possibilitando assim visão de todo o impacto ao cliente
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5>Construção Ciclo Sustentável - 1 Produto/ Grupo de Produtos (Blockchain)</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample"
+          style="">
+          <div class="card-body">
+            Utilizando da análise do ciclo do produto/ grupo de produtos a Oby irá aplicar melhorias em todos os níveis
+            e processos visando alta performance em sustentabilidade. Dentro das empresas (cliente) os processos
+            passarão a ser realizados via Blockchain.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h5>Desenvolvimento portal transparência/sustentabilidade:</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample" style="">
+          <div class="card-body">
+            Criação de uma página na web onde informações necessárias para demonstrar que o cliente é de fato
+            sustentável ao consumidor afinal.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <h5>Acompanhamento Impacto Positivo</h5>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample" style="">
+          <div class="card-body">
+            Será realizado um acompanhamento com o objetivo de medir qual foi o impacto no mercado e no consumidor final
+            após o cliente ter, de fato, se comprometido com sustentabilidade através da Oby.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p style="color: #000; margin-top: 2%;">&copy; 2021 Obylab &middot; <a href="#">Privacy</a> &middot; <a
+        href="#">Terms</a></p>
+  </footer>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
